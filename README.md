@@ -18,9 +18,8 @@ Cycle wallpapers with `omarchy theme bg next`.
 - `colors.toml`: palette (drives terminal, Waybar, Walker, Mako, Hyprlock, SwayOSD, btop and more)
 - `backgrounds/`: six painted cat wallpapers (2576x1438)
   - `1-siamese.jpg` (main, has an animated intro), `2-calico.jpg`, `3-orange.jpg`, `4-tabby.jpg`, `5-gray.jpg`, `6-black.jpg`
-- `backgrounds/intros/1-siamese.mp4`: 7.5 s intro. A band of light sweeps across the frame, catching the
-  whiskers and fur highlights and glinting in the Siamese's eyes, while the camera eases back and settles
-  on the still wallpaper
+- `backgrounds/intros/1-siamese.mp4`: 7.5 s intro. A warm, golden light washes across the Siamese's face
+  from left to right and passes, while the camera eases back and settles on the still wallpaper
 - `preview.png`
 
 Intros play at boot, on theme switch and when picking the background. Turn them off with
