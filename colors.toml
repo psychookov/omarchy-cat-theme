@@ -1,11 +1,26 @@
-# Cat — cores tiradas dos gatos: preto do siamês, creme, laranja do ruivo, azul dos olhos, cinza aço de destaque
-accent = "#9fa6af"
-cursor = "#cfd4da"
-foreground = "#d9cfc0"
-background = "#0c0d0f"
-selection_foreground = "#0c0d0f"
-selection_background = "#9fa6af"
+# Cat: cores tiradas dos gatos. Destaque em cinza-aco azulado.
+mode = "dark"
+
+accent = "#7b93b3"
+cursor = "#aebfd6"
+selection = "#26364f"
 muted = "#6b6a60"
+
+background = "#0c0d0f"
+dark_background = "#08090b"
+darker_background = "#050607"
+lighter_background = "#151b25"
+
+foreground = "#d9cfc0"
+dark_foreground = "#8c897f"
+light_foreground = "#e5e1cf"
+bright_foreground = "#f2efe6"
+
+red = "#b8603c"
+blue = "#5aa7dc"
+
+selection_foreground = "#f2efe6"
+selection_background = "#26364f"
 
 color0 = "#1a1816"
 color1 = "#b8603c"

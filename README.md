@@ -2,7 +2,7 @@
 
 <p align="center">
   A dark <a href="https://omarchy.org">Omarchy</a> theme about cats.<br>
-  Near-black base, steel-gray accent, and a palette picked straight from six painted cat wallpapers.
+  Near-black base, steel-blue accent, and a palette picked straight from six painted cat wallpapers.
 </p>
 
 <p align="center">
@@ -14,7 +14,8 @@
 ## Highlights
 
 - **Cat palette**: every color comes from one of the cats (see the table below)
-- **Steel-gray accent** `#9fa6af` with a lighter `#cfd4da` cursor for a cool, metallic feel
+- **Steel-blue accent** `#7b93b3` with a lighter `#aebfd6` cursor and a deep-blue selection `#26364f`, for a cool, metallic feel
+- **Readable top bar**: navy bar background with light text (see [Top bar](#top-bar))
 - **Six painted wallpapers**, with the Siamese as the main one
 - **Animated intro** for the Siamese wallpaper: a warm golden light washes across the face and passes
 - Dark by design: background `#0c0d0f`
@@ -59,9 +60,11 @@ picking the background. To turn them off: `omarchy theme bg intro disable`.
 |---|---|---|
 | background | `#0c0d0f` | the dark backdrop around the Siamese |
 | foreground | `#d9cfc0` | cream fur and knitted blankets |
-| accent | `#9fa6af` | the gray cat, pushed toward cool steel |
-| cursor | `#cfd4da` | lighter steel highlight |
+| accent | `#7b93b3` | the gray cat's coat, pushed toward a deeper steel blue so it stands out |
+| cursor | `#aebfd6` | lighter steel highlight |
+| selection | `#26364f` | deep blue for selected text and rows |
 | muted | `#6b6a60` | shadows on the gray cat's coat |
+| bar background / text | `#0f1724` / `#e8eef7` | navy bar with near-white text (`shell.bar.toml`) |
 | color1 / color9 | `#b8603c` / `#d97a55` | calico rust |
 | color2 / color10 | `#8a9a6a` / `#a8b887` | the fern and pothos in the calico wallpaper |
 | color3 / color11 | `#d19a57` / `#e5bf91` | orange tabby fur |
@@ -70,6 +73,14 @@ picking the background. To turn them off: `omarchy theme bg intro disable`.
 | color6 / color14 | `#6fb0b5` / `#8fcbcf` | teal yarn |
 | color0 / color8 | `#1a1816` / `#4e4038` | black cat and Siamese seal brown |
 | color7 / color15 | `#c0bcb0` / `#e5e1cf` | pale fur |
+
+## Top bar
+
+The Omarchy top bar can be transparent (`clear`), `glassy` or `opaque`, and that choice is yours, not the
+theme's. With a transparent bar the clock and icons sit directly on the wallpaper, and on the Siamese's pale
+fur at the top center they become hard to read. This theme ships a navy bar background with near-white text
+(`shell.bar.toml`), which shows up in the `glassy` and `opaque` modes. **Double-click the bar to cycle
+clear, glassy and opaque** until you like it.
 
 ## Install
 
@@ -81,7 +92,8 @@ omarchy theme set cat
 ## What's inside
 
 ```
-colors.toml                    # palette (terminal, Waybar, Walker, Mako, Hyprlock, SwayOSD, btop, ...)
+colors.toml                    # palette (terminal, shell, launcher, notifications, lock screen, btop, ...)
+shell.bar.toml                 # top bar colors
 backgrounds/
   1-siamese.jpg ... 6-black.jpg
   intros/1-siamese.mp4         # animated intro for the main wallpaper
@@ -95,7 +107,8 @@ images/                        # pictures used by this README
 - **Add an intro**: put an `.mp4` with the same base name in `backgrounds/intros/`
   (for example `backgrounds/4-tabby.jpg` and `backgrounds/intros/4-tabby.mp4`). Wallpapers without
   an intro are simply shown as stills.
-- **Change the accent**: edit `accent`, `cursor` and `selection_background` in `colors.toml`.
+- **Change the accent**: edit `accent`, `cursor` and `selection` in `colors.toml`.
+- **Change the top bar**: edit `background` and `text` in `shell.bar.toml`.
 
 ## Credits
 

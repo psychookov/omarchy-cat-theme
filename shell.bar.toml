@@ -1,0 +1,4 @@
+# Barra superior: fundo azul-marinho com texto claro, legivel sobre qualquer parte do wallpaper.
+# O fundo aparece nos modos "glassy" e "opaque" (clique duplo na barra alterna clear > glassy > opaque).
+background = "#0f1724"
+text = "#e8eef7"
